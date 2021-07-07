@@ -1,3 +1,6 @@
+# To Do: 
+Add the Mod Loader from 1.1.2, possibly make the menu not hardcoded into the game (like the way Sonic Forever does it, entirely in retroscript)
+
 # Retro Engine (RSDK) v4 Decompilation
 A Full Decompilation of RSDKv4/Sonic 1 & 2 (2013)
 
@@ -23,10 +26,6 @@ If you want to transfer your save from the **Android pre-forever versions,** you
 * Dev menu can now be accessed from anywhere by pressing the `ESC` key if enabled in the config
 * The `f12` pause, `f11` step over & fast forward debug features from sonic mania have all be ported and are enabled if devMenu is enabled in the config
 * If `devMenu` is enabled in the config, pressing `f10` will activate a palette overlay that shows the game's 8 internal palettes in real time
-
-# TODOs:
-* fix the HW Renderer, the game wasn't built around it/ it doesn't properly support palettes so all palette effects are broken, and it doesn't play nice with the SDL2 renderer, everything else works though
-* (maybe) S2 networking code, we attempted to write code to handle the 2PVS mode in S2 but we couldn't finish for many reasons, we did leave our WIP code in the game, so if you think you could do it by all means give it a shot!
 
 # How to build:
 If you wanted to build it yourself, why come here? Use the release.
